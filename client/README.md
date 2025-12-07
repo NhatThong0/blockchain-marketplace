@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Terminal 1: Chạy Ganache
+ganache-cli
+
+# Terminal 2: Deploy contract
+truffle migrate --reset
+
+# Terminal 3: Chạy React app
+cd client
+npm start
